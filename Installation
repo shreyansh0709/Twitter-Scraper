@@ -1,0 +1,7 @@
+Download pip Beautifulsoup
+Install Requests
+Import the Requests
+Target the url to a specified Twitter account
+Run the Script
+Parse the data into a JSON format which will be created in the Project folder as twitterData
+Extract the JSON data into Notepad++ to view it in a JSFormat
