@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import json
-url = 'http://ethans_fake_twitter_site.surge.sh/'
+url = 'specify the twitter URL of the account you want to scrap'
 response = requests.get(url, timeout=5)
 content = BeautifulSoup(response.content, "html.parser")
 tweetArr = []
